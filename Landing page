@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .hero {
+            background: #3498db;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+        }
+        .feature-box {
+            background: #ffcc00;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .cta {
+            margin: 30px 0;
+        }
+        .cta button {
+            background: #ff5733;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .cta button:hover {
+            background: #e64a19;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+            font-size: 14px;
+        }
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+            .feature-box {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>My Landing Page</header>
+    <section class="hero">Welcome to My Website</section>
+    <section class="features">
+        <div class="feature-box">🚀 Fast Performance</div>
+        <div class="feature-box">🎨 Modern Design</div>
+        <div class="feature-box">📱 Mobile Friendly</div>
+    </section>
+    <div class="cta">
+        <button>Get Started</button>
+    </div>
+    <footer>&copy; 2025 My Website. All Rights Reserved.</footer>
+</body>
+</html>

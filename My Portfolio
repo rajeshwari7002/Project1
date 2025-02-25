@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+            background:rgb(53, 199, 228);
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.8em;
+            color:white;
+            font-family: 'Montserrat', sans-serif;
+        }
+        p {
+            font-size: 1.2em;
+            color: #d1d1d1;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        img {
+            border-radius: 50%;
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+        .project img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        a {
+            text-decoration: none;
+            background: rgb(53, 199, 228);
+            padding: 12px 24px;
+            border-radius: 5px;
+            color:black;
+            font-weight: bold;
+            transition: background 0.3s;
+            font-family: 'Montserrat', sans-serif;
+        }
+        a:hover {
+            background: rgb(53, 199, 228);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            font-size: 1.3em;
+            margin: 5px 0;
+            color: rgb(53, 199, 228);
+            font-family: 'Poppins', sans-serif;
+        }
+        footer {
+            padding: 20px;
+            background-color:rgb(53, 199, 228);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rajeshwari.T</h1>
+        <p>Creative developer</p>
+    </header>
+
+    <section id="about">
+        <img src="your-image.jpg" alt="Your Name">
+        <p>Passionate web developer with expertise in front-end and back-end technologies, crafting seamless and engaging user experiences.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>CSS</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="project-image.jpg" alt="Project Title">
+            <h3>Responsive Web Development</h3>
+            <p>Project description goes here.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download My Resume (PDF)</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+        <p>Phone: +123456789</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
